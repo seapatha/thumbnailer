@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: thumbnailer
+  namespace: thumbnailer-demo
+spec: 
+  containers:
+  - name: thumbnailer
+    image: thumbnailer
+    imagePullPolicy: Never
